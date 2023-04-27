@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "setup_db": "node dbSetup.js",
+    "clear_db": "node dbClear.js"
   },
   "author": "Siah Peih Wee",
   "license": "ISC",
