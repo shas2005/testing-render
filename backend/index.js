@@ -36,8 +36,8 @@ app.listen(PORT,()=> {
 //////////////////////////////////////////////////////
 // SETTING MAIN ROUTES
 //////////////////////////////////////////////////////
-//const mainRoutes = require("./routes/mainRoutes");
-//app.use("/api", mainRoutes);
+const mainRoutes = require("./routes/mainRoutes");
+app.use("/api", mainRoutes);
 
 
 app.get("/message", (req, res, next) => {
