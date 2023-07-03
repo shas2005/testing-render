@@ -20,7 +20,8 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/", express.static("../frontend"));
+app.use("/legacy", express.static("../frontend"));
+app.use("/", express.static("../frontend-react/build"));
 
 //////////////////////////////////////////////////////
 // DISPLAY SERVER RUNNING
