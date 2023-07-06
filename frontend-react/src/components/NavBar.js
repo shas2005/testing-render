@@ -13,7 +13,7 @@ class NavBar extends React.Component
                 <a href='/'>Home</a>
                 <a href='/products'>Products</a>
                 <a href='/cart'>Cart</a>
-                <a href='/profile'>Profile</a>
+                <a href='/users/888'>Profile</a>
             </div>
         );
     }
