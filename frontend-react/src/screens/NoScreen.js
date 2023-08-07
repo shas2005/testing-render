@@ -10,7 +10,7 @@ class NoScreen extends React.Component
     {
         return (
             <div className='Main'>
-                <h1>404 Not Found</h1>
+                <h1>404 Not Found sis</h1>
             </div>
         );
     }
